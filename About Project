@@ -1,0 +1,19 @@
+# OCR system using Naive Bayes Classifiers
+
+This project tries to emulate a spam filter using Naive Bayes classifier. The dataset is obtained from the GrumbleText Website.
+The dataset consists of around 3183 SMS messages which have been classified into spam and ham. Classifiers based on Bayesian methods utilize
+training data to calculate an observed probability of each class. When the classifier is then used on unlabelled data it uses the observed
+probabilities to predict the most likely class for the new features. The Laplace Estimator is used to create non zero estimates
+in case of the likelihood event probability being zero.
+##WordCloud of Words related to Ham messages
+![alt tag](https://github.com/adhok/OCR-system-using-Naive-Bayes-Classifiers/blob/master/wordcloud_with_ham.png)
+##WordCloud of Words related to Spam messages
+![alt tag](https://github.com/adhok/OCR-system-using-Naive-Bayes-Classifiers/blob/master/wordcloud_with_spam.png)
+## CrossTable Without the Laplace Estimator
+![alt tag](https://github.com/adhok/OCR-system-using-Naive-Bayes-Classifiers/blob/master/CrossTable_first.png)
+
+
+##CrossTable with the Laplace Estimator
+![alt tag](https://github.com/adhok/OCR-system-using-Naive-Bayes-Classifiers/blob/master/CrossTable_improved.png)
+
+
